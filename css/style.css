@@ -75,9 +75,11 @@ nav ul li{
     display: inline-block;
     padding: 20px;
     cursor:pointer;
+    
 }
 nav ul .active{
     background: #f7600e;
+    
 }
 nav ul li a{
     color:#fff;
@@ -226,10 +228,12 @@ nav ul li a{
     
     0% {
         transform: rotate(360deg); 
+    }
     
     100% {
         transform: rotate(0deg); 
     }
+    
 }
 .side-bar .content-slide a{
     display: block;
@@ -266,6 +270,7 @@ nav ul li a{
     color: #656565;
 }
 @media (max-width: 575px) {
+    
     .featu-sec .container{
         display: block;
     }
@@ -480,6 +485,7 @@ nav ul li a{
     -ms-background-size:cover;
     height: 400px;
     margin: 100px 0;
+    
 }
 .testi .over-lay{
     background: rgba(50,50,50,.6);
@@ -581,22 +587,14 @@ nav ul li a{
     margin-top: 10px;
     width: 90%;
 }
-@media (max-width: 575px){
+@media (max-width: 670px){
     .our-team .all-team .person{
-        width: 43%;
+        width: 45%;
         margin-right: 15px;
         margin-top: 50px;
     }
-}
-@media (min-width: 576px)(max-width: 800px ){
-    
-    .our-team .all-team .person{
-        width:47%;
-        margin-right: 10px;
-        margin-top: 50px;
-    }
-    .our-team .all-team .person:hover img{
-        border-bottom: none;
+    .our-team .all-team .person:hover{
+        transform: scale(1,1);
     }
 }
 /* End Our Team */
@@ -709,6 +707,7 @@ nav ul li a{
     .say-hello form input[type='text']{
         display: inline-block;
         width: 100%;
+       
     }
     .say-hello form textarea{
         display: inline-block;
