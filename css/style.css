@@ -724,6 +724,7 @@ nav ul li a{
     .say-hello form .socila-cont{
         float:none;
         margin: auto;
+        margin-rigth:10px;
     }   
 }
 /* End Last Section */
