@@ -589,8 +589,8 @@ nav ul li a{
 }
 @media (max-width: 670px){
     .our-team .all-team .person{
-        width: 45%;
-        margin-right: 15px;
+        width: 40%;
+        margin-right: 20px;
         margin-top: 50px;
     }
     .our-team .all-team .person:hover{
